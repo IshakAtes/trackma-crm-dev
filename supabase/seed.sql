@@ -1,0 +1,1 @@
+-- Intentionally empty. No CRM schema or seed data has been created.
