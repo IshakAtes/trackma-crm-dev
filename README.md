@@ -1,6 +1,11 @@
-# DealCheckers CRM
+# Trackma
 
-Technical foundation for a future multi-tenant CRM. This repository currently contains no CRM database schema, application features, authentication flow, or seed data.
+A secure, multi-tenant foundation for customer and contract management. The local
+database schema provides role-based tenant isolation, generic contract types, contacts,
+follow-ups, referrals, notes, typed custom fields, and a versioned Energy template.
+
+See [Database V1](supabase/DATABASE_V1.md) for permissions, lifecycle operations,
+template installation, integrity rules, and local validation commands.
 
 ## Prerequisites
 
@@ -35,7 +40,7 @@ npm run verify:supabase
 
 ## Database workflow
 
-The Supabase CLI is pinned as a project dependency and `supabase/config.toml` is committed. Future database changes must be captured in `supabase/migrations`.
+The Supabase CLI is pinned as a project dependency and `supabase/config.toml` is committed. Database changes are captured as forward-only files in `supabase/migrations`.
 
 ```sh
 npm run supabase:start

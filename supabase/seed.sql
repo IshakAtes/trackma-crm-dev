@@ -1,1 +1,4 @@
--- Intentionally empty. No CRM schema or seed data has been created.
+-- No demo Auth identities, memberships or customer PII.
+-- The Energy catalog is deployment data installed by the V1 migration, so a
+-- first deployment works without this local-only seed file.
+-- pgTAP fixtures are created in isolated transactions and rolled back.

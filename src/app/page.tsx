@@ -5,8 +5,8 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <div className={styles.intro}>
-          <h1>DealCheckers CRM</h1>
-          <p>Technical foundation initialized. CRM features have not been built.</p>
+          <h1>trackma</h1>
+          <p>Customer and contract management, built on a secure multi-tenant core.</p>
         </div>
       </main>
     </div>

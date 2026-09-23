@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "DealCheckers CRM",
-  description: "Technical foundation for DealCheckers CRM",
+  title: "Trackma",
+  description: "Trackma customer and contract management",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
